@@ -10,6 +10,46 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<form action="signup-form-car.php" method="post">
+    <label for="name">Name</label>
+		<input type="text" id="name" name="name" placeholder="name" required>
+		<br>
+	<label for="email">Email</label>
+		<input type="email" id="email" name="email" placeholder="email" required>
+		<br>
+	<label>Gender</label>
+		<input type="radio" id="gender_m" name="gender" required>
+		<label for="gender_m">Male</label>
+		<input type="radio" id="female_f" name="gender" required>
+		<label for="female_f">Female</label>
+		<br>
+	<label for="cars">Cars Brand</label>
+		<select name="cars" id="cars" required>
+			<option value="Audi">Audi</option>
+			<option value="Mercedes">Mercedes</option>
+			<option value="Jaguar">Jaguar</option>
+			<option value="Range Rover">Range Rover</option>
+		</select>
+	    <br>
+	<label for="age">Age</label>
+		<input type="number" id="age" placeholder="Age" required>
+		<br>
+	<label for="dob">DOB</label>
+        <input type="date" id="dob" required>
+		<br>
+	<label for="tel">Phone Number</label
+        <input type="tel" id="tel" placeholder="xxx-xxx-xxxx">
+        <br>
+	<label for="password">Password</label>
+        <input type="password" id="password" placeholder="password" required>
+		<br>
+	<label for="tos">I agree to the TOS</label>
+		<input type="checkbox" id="tos" required>
+			<br>
+	<button type="Submit">Signup</button>
+	</form>
+		
+
 
 </body>
 
